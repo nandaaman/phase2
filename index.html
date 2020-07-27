@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aman's To-do List</title>
+    <!--connecting css stylesheet-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <!-- List-->
+      <div class="amnList">
+        <!--Giving Header-->
+        <h1 id="h1Title">Aman's To-do List</h1>
+        <!--para-->
+        <p id="tbd">Task to be done</p>
+        <!--Table input-->
+        <input id="txtinput" type="text" placeholder="List items" />
+        <button id="submit">Submit</button>
+        <!--unordered list-->
+        <br>
+        <br>
+        <div class="ul">
+          <ul>
+            <li>placeholder 1</li>
+            <li>placeholder 2</li>
+            <li>placeholder 3</li>
+            <li>placeholder 4</li>
+            <li>placeholder 5</li>
+          </ul>
+        </div>
+      </div>
+      <!-- weather api to check weather and plan accoringly-->
+      <div class="box text-center">
+        <h3>Weather App</h3>
+        <p>"Climate is what we expect, weather is what we get." - Mark Twain</p>
+        <h4 id="whole"></h4>
+        <h4 id="temp"></h4>
+        <h4 id="whole2"></h4>
+        <img id="icon"><br />
+        <button id="togg">°F</button>
+        <button id="more">Show More</button>
+        <div id="data" class="text-center">
+        </div>
+        <div id="map" class="text-center">
+        </div>
+      </div>
+    <!--connecting js-->
+    <script src="script.js"></script>
+  </body>
+</html>
